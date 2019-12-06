@@ -1,6 +1,6 @@
 sudo apt-get install ufw
 sudo apt-get install rkhunter
-sudo apt-get install gcloud
+sudo apt-get update
 
 ufw enable
 rkhunter --update
