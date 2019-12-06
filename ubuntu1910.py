@@ -14,3 +14,5 @@ if ch == '1'
 	os.system("sudo rkhunter --update")
 	os.system("sudo rkhunter --check")
 	print("installed and ran rkhunter")
+	os.system("sudo apt-get install aptitiude")
+	
