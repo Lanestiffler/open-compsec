@@ -15,4 +15,5 @@ if ch == '1'
 	os.system("sudo rkhunter --check")
 	print("installed and ran rkhunter")
 	os.system("sudo apt-get install aptitiude")
-	
+	os.system("sudo apt-get install ufw")
+	os.system("sudo ufw enable")
